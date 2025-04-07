@@ -1,0 +1,2 @@
+# excel_extract_test
+Excelファイルをテキスト抽出するテスト
