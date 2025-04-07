@@ -21,5 +21,5 @@ def extract_text_from_excel(filepath):
     return "\n".join(text_data)
 
 # 実行例
-filepath = "excel_extract_test.xlsx"
+filepath = "<file name>.xlsx"
 print(extract_text_from_excel(filepath))
