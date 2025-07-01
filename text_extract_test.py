@@ -5,6 +5,7 @@ pip install openpyxl
 import openpyxl
 
 # Excelファイルのテキスト抽出の関数
+# 先頭から順番に抽出する場合
 def extract_text_from_excel(filepath):
     # Excelファイルを開く
     workbook = openpyxl.load_workbook(filepath)
